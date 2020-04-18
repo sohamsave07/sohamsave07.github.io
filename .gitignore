@@ -1,0 +1,5 @@
+# Ignore the folder node_modules
+node_modules/
+
+# ignore Mac DS_Store
+.DS_Store
