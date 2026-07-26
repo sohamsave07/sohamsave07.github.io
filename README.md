@@ -14,9 +14,9 @@ Source for my personal portfolio site — a single-page site covering who I am, 
 
 Set up your own GitHub Pages site under your **`username.github.io`** repo and point your custom domain (if any) at it.
 
-### Website Template : [Ceevee](https://www.styleshout.com/free-templates/ceevee/ "Ceevee by StyleShout")
+### Website Template : [Risen](https://github.com/xriley/Risen-Theme "Risen by Xiaoying Riley / 3rd Wave Media")
 
-The site is built on top of the open-source Ceevee template, customized with my own content, sections, and styling.
+The site's visual design is adapted from the open-source Risen template (Bootstrap 5, dark mode, built for software developers), reskinned onto my own existing content, sections, and structure.
 
 ## Services Integrated 🔗
 
@@ -35,7 +35,9 @@ The site is built on top of the open-source Ceevee template, customized with my 
 
 #### Version Control : [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 
-#### Libraries : jQuery, FlexSlider, Magnific Popup, FitText, Waypoints, Modernizr
+#### Framework & Icons : Bootstrap 5, Bootstrap Icons, Font Awesome
+
+#### Libraries : jQuery, Waypoints, Modernizr
 
 ## Contributions ❤️
 

@@ -22,7 +22,6 @@
 			property="og:description"
 			content="Data Scientist turned MLOps Engineer, now building AI agents. From model training to production pipelines to agentic systems."
 		/>
-		<!-- <meta property="og:image" content="https://sohamsave07.github.io/ks_i.png"> -->
 		<meta property="og:image" content="https://sohamsave07.github.io/ogKS.png" />
 		<meta property="og:type" content="article" />
 		<meta property="og:locale" content="en_US" />
@@ -76,18 +75,29 @@
 			content="width=device-width, initial-scale=1, maximum-scale=1"
 		/>
 
-		<!-- CSS
+		<!-- Fonts & Icons
     ================================================== -->
-		<link rel="stylesheet" href="css/default.css" />
-		<link rel="stylesheet" href="css/layout.css" />
-		<link rel="stylesheet" href="css/media-queries.css" />
-		<link rel="stylesheet" href="css/magnific-popup.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
 			crossorigin="anonymous"
 		/>
+
+		<!-- CSS
+    ================================================== -->
+		<link rel="stylesheet" href="css/risen.css" />
+		<link rel="stylesheet" href="css/custom.css" />
 
 		<!-- Favicons
 	================================================== -->
@@ -98,15 +108,6 @@
 		<!-- Script
    ================================================== -->
 		<script src="js/modernizr.js"></script>
-
-		<!-- LinkedIn Script
-   ================================================== -->
-		<script
-			type="text/javascript"
-			src="https://platform.linkedin.com/badges/js/profile.js"
-			async
-			defer
-		></script>
 	</head>
 
 	<!-- End head -->
@@ -172,7 +173,6 @@
 						<br />
 						<span>Senior Analyst, Data Science @ Dell Technologies</span>
 					</h3>
-					<!-- <hr /> -->
 					<ul class="social">
 						<li>
 							<a
@@ -217,7 +217,6 @@
 			<p class="scrolldown">
 				<a class="smoothscroll" href="#about">
 					<i class="fas fa-chevron-circle-down"></i>
-					<!-- <i class="icon-down-circle"></i> -->
 				</a>
 			</p>
 		</header>
@@ -225,71 +224,43 @@
 
 		<!-- About Section
    ================================================== -->
-		<section id="about">
+		<section id="about" class="resume-wrapper">
 			<div class="row">
-				<div class="four columns">
-					<!-- <img class="profile-pic" src="assets/images/luffyProfile.png" alt="" /> -->
-					<div
-						class="LI-profile-badge linkedin-pic-verti"
-						data-version="v1"
-						data-size="medium"
-						data-locale="en_US"
-						data-type="vertical"
-						data-theme="dark"
-						data-vanity="soham-save"
-					>
-						<a
-							class="LI-simple-link"
-							href="https://www.linkedin.com/in/soham-save?trk=profile-badge"
-							>Soham Save</a
-						>
-					</div>
-					<div
-						class="LI-profile-badge linkedin-pic-horiz"
-						data-version="v1"
-						data-size="large"
-						data-locale="en_US"
-						data-type="horizontal"
-						data-theme="dark"
-						data-vanity="soham-save"
-					>
-						<a
-							class="LI-simple-link"
-							href="https://www.linkedin.com/in/soham-save?trk=profile-badge"
-							>Soham Save</a
-						>
-					</div>
-				</div>
-				<div></div>
+				<div class="col-12">
+					<section class="resume-summary-section resume-section">
+						<h2 class="resume-section-heading">
+							<i class="resume-section-heading-icon bi bi-person me-2"></i>About Me
+						</h2>
+						<p class="resume-summary-desc">
+							I started out as an aspiring Data Scientist, chasing the classic
+							dream of building models that could predict, classify, and
+							explain the world a little better. <br />
+							That path led me to Dell Technologies, where I grew into an
+							<strong>MLOps Engineer</strong> &mdash; automating ETL pipelines
+							with Airflow, fine-tuning embedding models with MLflow, and
+							shipping everything through CI/CD into Docker and Kubernetes so
+							models didn't just work in a notebook, they worked in production.
+							<br />
+							From there the work kept pulling me forward: from pipelines that
+							move data to <strong>agents that take action</strong>. Today I
+							design and build AI agents end-to-end &mdash; orchestrating
+							multi-agent systems as an MCP client connected to MCP servers,
+							building RAG-powered chatbots, and shipping agents on platforms
+							like Glean that draft outreach emails, generate meeting agendas,
+							and turn business processes into structured, actionable content.
+							<br />
+							Same curiosity that started with "can I predict this?" now shows
+							up as "can I build something that does this on its own?"
+						</p>
+					</section>
 
-				<div class="eight columns main-col">
-					<h2>About Me</h2>
-
-					<p>
-						I started out as an aspiring Data Scientist, chasing the classic
-						dream of building models that could predict, classify, and
-						explain the world a little better. <br />
-						That path led me to Dell Technologies, where I grew into an
-						<strong>MLOps Engineer</strong> &mdash; automating ETL pipelines
-						with Airflow, fine-tuning embedding models with MLflow, and
-						shipping everything through CI/CD into Docker and Kubernetes so
-						models didn't just work in a notebook, they worked in production.
-						<br />
-						From there the work kept pulling me forward: from pipelines that
-						move data to <strong>agents that take action</strong>. Today I
-						design and build AI agents end-to-end &mdash; orchestrating
-						multi-agent systems as an MCP client connected to MCP servers,
-						building RAG-powered chatbots, and shipping agents on platforms
-						like Glean that draft outreach emails, generate meeting agendas,
-						and turn business processes into structured, actionable content.
-						<br />
-						Same curiosity that started with "can I predict this?" now shows
-						up as "can I build something that does this on its own?"
-					</p>
+					<hr />
 
 					<div class="row">
-						<div class="columns contact-details">
-							<h2>Contact Details</h2>
+						<div class="col-12 col-lg-6">
+							<h3 class="resume-section-heading">
+								<i class="resume-section-heading-icon bi bi-envelope me-2"></i>Contact Details
+							</h3>
 							<p class="address">
 								<span>Soham Save</span>
 								<br />
@@ -309,100 +280,91 @@
 							</p>
 						</div>
 
-						<div class="columns download">
-							<p>
-								<a
-									href="assets/files/Soham_Save_Resume.pdf"
-									class="button"
-									download
-									target="_blank"
-								>
-									<i class="fa fa-download"></i>Download Resume</a
-								>
-							</p>
+						<div class="col-12 col-lg-6 d-flex align-items-center">
+							<a
+								href="assets/files/Soham_Save_Resume.pdf"
+								class="btn btn-primary"
+								download
+								target="_blank"
+							>
+								<i class="fa fa-download me-2"></i>Download Resume</a
+							>
 						</div>
 					</div>
-					<!-- end row -->
 				</div>
-				<!-- end .main-col -->
 			</div>
 		</section>
 		<!-- About Section End-->
 
 		<!-- Resume Section
    ================================================== -->
-		<section id="resume">
+		<section id="resume" class="resume-wrapper">
 			<!-- Education
    ================================================== -->
-			<div class="row education">
-				<div class="three columns header-col">
-					<h1>
-						<span>Education</span>
-					</h1>
+			<section class="resume-educate-section resume-section">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-book me-2"></i>Education
+				</h2>
+
+				<div class="row item mb-4">
+					<div class="col-12">
+						<h3 class="resume-degree">
+							Seidenberg School of CS &amp; IS, Pace University
+						</h3>
+						<p class="info">
+							M.S. in Computer Science &mdash; Concentration: Data Science
+							<span>&bull;</span>
+							<em class="date">May 2021</em>
+						</p>
+						<p>
+							GPA: 3.86. This is where the shift from "developer" to
+							"data scientist" really took hold &mdash; statistics, machine
+							learning, and applied coursework that turned into the Shoptaki
+							internship and, soon after, a full-time data science role.
+						</p>
+					</div>
 				</div>
 
-				<div class="nine columns main-col">
-					<div class="row item">
-						<div class="twelve columns">
-							<h3>
-								Seidenberg School of CS &amp; IS, Pace University
-							</h3>
-							<p class="info">
-								M.S. in Computer Science &mdash; Concentration: Data Science
-								<span>&bull;</span>
-								<em class="date">May 2021</em>
-							</p>
-							<p>
-								GPA: 3.86. This is where the shift from "developer" to
-								"data scientist" really took hold &mdash; statistics, machine
-								learning, and applied coursework that turned into the Shoptaki
-								internship and, soon after, a full-time data science role.
-							</p>
-						</div>
-					</div>
+				<div class="row item">
+					<div class="col-12">
+						<h3 class="resume-degree">
+							Bharati Vidyapeeth, College of Engineering
+						</h3>
+						<p class="info">
+							B.E. in Electronics and Telecommunications
+							<span>&bull;</span>
+							<em class="date">May 2018</em>
+						</p>
 
-					<div class="row item">
-						<div class="twelve columns">
-							<h3>
-								Bharati Vidyapeeth, College of Engineering
-							</h3>
-							<p class="info">
-								B.E. in Electronics and Telecommunications
-								<span>&bull;</span>
-								<em class="date">May 2018</em>
-							</p>
-
-							<p>
-								Maharashtra, India. Four years of engineering fundamentals
-								that built the problem-solving foundation everything since has
-								been layered on top of.
-							</p>
-						</div>
+						<p>
+							Maharashtra, India. Four years of engineering fundamentals
+							that built the problem-solving foundation everything since has
+							been layered on top of.
+						</p>
 					</div>
-					<!-- item end -->
 				</div>
-				<!-- main-col end -->
-			</div>
+			</section>
 			<!-- End Education -->
 
-			<!-- Work -->
-			<div class="row work">
-				<div class="three columns header-col">
-					<h1>
-						<span>Work</span>
-					</h1>
-				</div>
+			<hr />
 
-				<div class="eleven columns main-col">
-					<div class="row item">
-						<div class="twelveC columns">
-							<h3>Dell Technologies</h3>
-							<p class="info">
-								Senior Analyst, Data Science
-								<span>&bull;</span>
-								<em class="date">September 2021 - Present</em>
-							</p>
-							<ul class="disc">
+			<!-- Work -->
+			<section class="resume-experience-section resume-section">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
+				</h2>
+
+				<div class="resume-timeline position-relative">
+					<article class="resume-timeline-item position-relative">
+						<div class="resume-timeline-item-header mb-2">
+							<div class="resume-position-meta d-flex justify-content-between mb-1">
+								<div class="resume-position-time">September 2021 - Present</div>
+								<div class="resume-company-name">Dell Technologies</div>
+							</div>
+							<h3 class="resume-position-title mb-1">Senior Analyst, Data Science</h3>
+						</div>
+						<div class="resume-timeline-item-desc">
+							<ul class="resume-timeline-list">
 								<li>
 									Built an agent on <b>Glean</b> that helps sellers check
 									asset refresh and renewal status, draft outreach emails,
@@ -443,361 +405,320 @@
 								</li>
 							</ul>
 						</div>
-					</div>
-					<!-- item end -->
-
-					<div class="row item">
-						<div class="twelveC columns">
-							<h3>Shoptaki</h3>
-							<p class="info">
-								Data Science Intern
-								<span>&bull;</span>
-								<em class="date">June 2021 - August 2021</em>
-							</p>
-
-							<p>
-								Helped build a website for online data processing and
-								collaborated on a handwritten-recognition system that converted
-								handwritten PDFs into Word documents &mdash; my first real taste
-								of applied data science.
-							</p>
-						</div>
-					</div>
-					<!-- item end -->
+					</article>
 				</div>
-				<!-- main-col end -->
-			</div>
+			</section>
 			<!-- End Work -->
 
-			<!-- Skills
-       -->
-			<div class="row" id="developer">
-				<div class="skill columns collapsed">
-					<h1>Check out my Skills.</h1>
+			<hr />
 
-					<div class="six columns header-col">
-						<h1>
-							<span>AI / ML Skills</span>
-						</h1>
-						<p>
+			<!-- Skills -->
+			<section class="resume-skills-section resume-section" id="developer">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-gear me-2"></i>Check out my Skills
+				</h2>
+
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<h3 class="h6 text-uppercase mb-3">AI / ML Skills</h3>
+						<p class="text-body-secondary small">
 							The core toolkit behind moving from data science into MLOps and
 							now agentic AI &mdash; languages and libraries used daily to
 							train, deploy, and orchestrate models and agents.
 						</p>
-						<div class="bars">
-							<ul class="skills">
-								<li>
-									<span class="bar-expand skillbar" style="--w: 92%; width: 92%;"></span>
-									<em>Python</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 85%; width: 85%;"></span>
-									<em>SQL</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 88%; width: 88%;"></span>
-									<em>LangChain / LangGraph</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 80%; width: 80%;"></span>
-									<em>OpenAI / LLM Agents</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 78%; width: 78%;"></span>
-									<em>MLflow</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 75%; width: 75%;"></span>
-									<em>TensorFlow / PyTorch / Scikit-learn</em>
-								</li>
-							</ul>
-						</div>
-						<!-- end skill-bars -->
+						<ul class="list-unstyled">
+							<li class="mb-2">
+								<div class="resume-skill-name">Python</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 92%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">SQL</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 85%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">LangChain / LangGraph</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 88%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">OpenAI / LLM Agents</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">MLflow</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 78%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">TensorFlow / PyTorch / Scikit-learn</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 75%"></div>
+								</div>
+							</li>
+						</ul>
 					</div>
 
-					<div class="six columns header-col">
-						<h1>
-							<span>Platforms &amp; MLOps</span>
-						</h1>
-						<p>
+					<div class="col-12 col-lg-6">
+						<h3 class="h6 text-uppercase mb-3">Platforms &amp; MLOps</h3>
+						<p class="text-body-secondary small">
 							Everything it takes to get a model or agent out of a notebook
 							and into something people actually rely on in production.
 						</p>
-
-						<div class="bars">
-							<ul class="skills">
-								<li>
-									<span class="bar-expand skillbar" style="--w: 85%; width: 85%;"></span>
-									<em>Airflow (ETL Automation)</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 80%; width: 80%;"></span>
-									<em>Docker / Kubernetes</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 78%; width: 78%;"></span>
-									<em>FastAPI</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 75%; width: 75%;"></span>
-									<em>Glean (Agent Platform)</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 70%; width: 70%;"></span>
-									<em>LangFuse (Observability)</em>
-								</li>
-								<li>
-									<span class="bar-expand skillbar" style="--w: 70%; width: 70%;"></span>
-									<em>CI/CD (Cloud Foundry)</em>
-								</li>
-							</ul>
-						</div>
-						<!-- end skill-bars -->
+						<ul class="list-unstyled">
+							<li class="mb-2">
+								<div class="resume-skill-name">Airflow (ETL Automation)</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 85%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">Docker / Kubernetes</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">FastAPI</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 78%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">Glean (Agent Platform)</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 75%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">LangFuse (Observability)</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 70%"></div>
+								</div>
+							</li>
+							<li class="mb-2">
+								<div class="resume-skill-name">CI/CD (Cloud Foundry)</div>
+								<div class="progress resume-progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar resume-progress-bar" style="width: 70%"></div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-				<!-- main-col end -->
-			</div>
+			</section>
 			<!-- End skills -->
 		</section>
 		<!-- Resume Section End-->
 
 		<!-- AI/ML Project Highlights Section
 ================================================== -->
-		<section id="works">
-			<div class="row skill">
-				<div class="twelveC columns collapsed">
-					<h1>
-						<span>AI Agent &amp; ML Project Highlights.</span>
-					</h1>
-					<div class="four columns header-col">
-						<h4>Glean Seller Agent</h4>
-						<p>
+		<section id="works" class="resume-wrapper">
+			<section class="resume-projects-section resume-section">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-code-slash me-2"></i>AI Agent &amp; ML Project Highlights
+				</h2>
+
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>Glean Seller Agent</h4>
+						<div class="item-desc">
 							Built an agent on Glean that checks asset refresh &amp; renewal
 							status and drafts outreach emails, meeting agendas, discovery
 							questions, and follow-ups for sellers, cutting prep time with
 							custom actions and insights.
-						</p>
+						</div>
 					</div>
 
-					<div class="four columns header-col">
-						<h4>Agentic AI Orchestration Framework</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>Agentic AI Orchestration Framework</h4>
+						<div class="item-desc">
 							Designed a framework that routes user intent to specialized AI
 							agents, acting as an MCP client connected to MCP servers exposing
 							a variety of tools.
-						</p>
+						</div>
 					</div>
 
-					<div class="four columns header-col">
-						<h4>ARIS Business-Process Agent</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>ARIS Business-Process Agent</h4>
+						<div class="item-desc">
 							Enhanced an agent that pulls Business Processes from ARIS and
 							generates Markdown/PDF documentation for 100+ processes, adding
 							LangFuse observability and prompt tuning.
-						</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="twelveC columns collapsed">
-					<div class="three columns header-col">
-						<h4>RAG Sales Chatbot</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>RAG Sales Chatbot</h4>
+						<div class="item-desc">
 							Built a FastAPI-based RAG chatbot with a 3-person team to
 							centralize sales content and streamline seller access to
 							information.
-						</p>
+						</div>
 					</div>
 
-					<div class="three columns header-col">
-						<h4>Embedding Fine-Tuning</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>Embedding Fine-Tuning</h4>
+						<div class="item-desc">
 							Improved chatbot accuracy from 65% to 87% by fine-tuning the
 							embedding model with MLflow and a synthetic LLM-generated
 							question dataset.
-						</p>
+						</div>
 					</div>
 
-					<div class="three columns header-col">
-						<h4>Automated ETL Pipelines</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>Automated ETL Pipelines</h4>
+						<div class="item-desc">
 							Automated daily Airflow workflows to refresh a PGVector database,
 							run regression tests, and trigger fine-tuning when accuracy
 							drifted.
-						</p>
+						</div>
 					</div>
 
-					<div class="three columns header-col">
-						<h4>Query Classification Model</h4>
-						<p>
+					<div class="col-12 col-md-6 col-lg-4 item">
+						<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i>Query Classification Model</h4>
+						<div class="item-desc">
 							Developed a hierarchical top-down classification model at 93%
 							accuracy to categorize user queries for reporting and strategic
 							decision-making.
-						</p>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</section>
 		<!-- Works Section End-->
 
-		<!-- Call-To-Action Section
-   ================================================== -->
-		<!--  <section id="call-to-action">
-      <div class="row">
-        <div class="nine columns">
-          <h2>
-            <span class="lead">Photography as a hobby</span>
-          </h2>
-          <p>
-            <span class="lead">
-              Cameras were introduced in my life early on, along with my first
-              computer rocking Windows 95 &amp; floppy disks. Always loved
-              capturing nature, panoramas &amp; inanimate objects with
-              contrasting perspective.
-              <br />
-              Feel free to flick through my Instagram feed.
-            </span>
-          </p>
-        </div>
-
-        <div class="three columns action"></div>
-         <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:''});Pixlee.addSimpleWidget({widgetId:''});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
-      </div>
-    </section>
-  -->
-
-		<!-- Call-To-Action Section End-->
-
 		<!-- Contact Section
    ================================================== -->
-		<section id="contact">
-			<div class="row section-head">
-				<div class="two columns header-col">
-					<h1>
-						<span>Get In Touch.</span>
-					</h1>
+		<section id="contact" class="resume-wrapper">
+			<section class="resume-section">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-chat-dots me-2"></i>Get In Touch
+				</h2>
+				<p class="lead">
+					Feel free to reach out if you want to talk data science, MLOps,
+					or AI agents &mdash; or if you just want to compare notes on a
+					PS5 backlog.
+					<br />
+					Have a project in mind or opinions about the website? Drop a
+					message below.
+				</p>
+
+				<form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+						<div class="mb-3">
+							<label for="contactName" class="form-label"
+								>Name
+								<span class="required">*</span>
+							</label>
+							<input
+								type="text"
+								value=""
+								class="form-control"
+								id="contactName"
+								name="contactName"
+							/>
+						</div>
+
+						<div class="mb-3">
+							<label for="contactEmail" class="form-label"
+								>Email
+								<span class="required">*</span>
+							</label>
+							<input
+								type="text"
+								value=""
+								class="form-control"
+								id="contactEmail"
+								name="contactEmail"
+							/>
+						</div>
+
+						<div class="mb-3">
+							<label for="contactSubject" class="form-label">Subject</label>
+							<input
+								type="text"
+								value=""
+								class="form-control"
+								id="contactSubject"
+								name="contactSubject"
+							/>
+						</div>
+
+						<div class="mb-3">
+							<label for="contactMessage" class="form-label"
+								>Message
+								<span class="required">*</span>
+							</label>
+							<textarea
+								rows="5"
+								class="form-control"
+								id="contactMessage"
+								name="contactMessage"
+							></textarea>
+						</div>
+
+						<div>
+							<button class="btn btn-primary submit">Submit</button>
+							<span id="image-loader">
+								<img alt="" src="assets/images/loader.gif" />
+							</span>
+						</div>
+					</fieldset>
+				</form>
+				<!-- Form End -->
+
+				<!-- contact-warning -->
+				<div id="message-warning">Error oh boy !</div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Classic Email ? Old School huh! Your
+					message was sent, thank you!
+					<br />
 				</div>
-
-				<div class="ten columns">
-					<p class="lead">
-						Feel free to reach out if you want to talk data science, MLOps,
-						or AI agents &mdash; or if you just want to compare notes on a
-						PS5 backlog.
-						<br />
-						Have a project in mind or opinions about the website? Drop a
-						message below.
-					</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="twelve columns">
-					<!-- form -->
-					<form action="" method="post" id="contactForm" name="contactForm">
-						<fieldset>
-							<div>
-								<label for="contactName"
-									>Name
-									<span class="required">*</span>
-								</label>
-								<input
-									type="text"
-									value=""
-									size="35"
-									id="contactName"
-									name="contactName"
-								/>
-							</div>
-
-							<div>
-								<label for="contactEmail"
-									>Email
-									<span class="required">*</span>
-								</label>
-								<input
-									type="text"
-									value=""
-									size="35"
-									id="contactEmail"
-									name="contactEmail"
-								/>
-							</div>
-
-							<div>
-								<label for="contactSubject">Subject</label>
-								<input
-									type="text"
-									value=""
-									size="35"
-									id="contactSubject"
-									name="contactSubject"
-								/>
-							</div>
-
-							<div>
-								<label for="contactMessage"
-									>Message
-									<span class="required">*</span>
-								</label>
-								<textarea
-									cols="10"
-									rows="5"
-									id="contactMessage"
-									name="contactMessage"
-								></textarea>
-							</div>
-
-							<div>
-								<button class="submit">Submit</button>
-								<span id="image-loader">
-									<img alt="" src="assets/images/loader.gif" />
-								</span>
-							</div>
-						</fieldset>
-					</form>
-					<!-- Form End -->
-
-					<!-- contact-warning -->
-					<div id="message-warning">Error oh boy !</div>
-					<!-- contact-success -->
-					<div id="message-success">
-						<i class="fa fa-check"></i>Classic Email ? Old School huh! Your
-						message was sent, thank you!
-						<br />
-					</div>
-				</div>
-			</div>
+			</section>
 		</section>
 		<!-- Contact Section End-->
 
-		<section id="changelog">
-			<div class="row section-head">
-				<div class="two columns header-col">
-					<h1>
-						Changelog.
-					</h1>
-				</div>
+		<section id="changelog" class="resume-wrapper">
+			<section class="resume-section">
+				<h2 class="resume-section-heading">
+					<i class="resume-section-heading-icon bi bi-clock-history me-2"></i>Changelog
+				</h2>
 
-				<div class="row">
-					<div class="ten columns">
-						<div class="yearChangelog">
-							<h2>
-								Present
-							</h2>
-							<span class="info">v3.0 Current Release</span>
-							<p class="lead">
+				<div class="resume-timeline position-relative">
+					<article class="resume-timeline-item position-relative pb-4">
+						<div class="resume-timeline-item-header mb-2">
+							<div class="resume-position-meta d-flex justify-content-between mb-1">
+								<div class="resume-position-time">Present</div>
+								<div class="resume-company-name">v3.0 Current Release</div>
+							</div>
+						</div>
+						<div class="resume-timeline-item-desc">
+							<p>
 								Still Senior Analyst, Data Science at Dell Technologies, but the
 								work has shifted from pipelines to agents &mdash; designing
 								multi-agent orchestration as an MCP client, shipping agents on
 								Glean, and building RAG systems end-to-end.
 							</p>
 						</div>
+					</article>
 
-						<div class="yearChangelog">
-							<h2>
-								2021
-							</h2>
-							<span class="info">v2.0</span>
-							<p class="lead">
+					<article class="resume-timeline-item position-relative pb-4">
+						<div class="resume-timeline-item-header mb-2">
+							<div class="resume-position-meta d-flex justify-content-between mb-1">
+								<div class="resume-position-time">2021</div>
+								<div class="resume-company-name">v2.0</div>
+							</div>
+						</div>
+						<div class="resume-timeline-item-desc">
+							<p>
 								Graduated with an M.S. in Computer Science (Data Science
 								concentration) from Pace University. Interned as a Data
 								Science Intern at Shoptaki, then joined Dell Technologies as
@@ -807,21 +728,25 @@
 								CI/CD into Docker and Kubernetes.
 							</p>
 						</div>
+					</article>
 
-						<div class="yearChangelog">
-							<h2>
-								2018
-							</h2>
-							<span class="info">v1.0 Released</span>
-							<p class="lead">
+					<article class="resume-timeline-item position-relative">
+						<div class="resume-timeline-item-header mb-2">
+							<div class="resume-position-meta d-flex justify-content-between mb-1">
+								<div class="resume-position-time">2018</div>
+								<div class="resume-company-name">v1.0 Released</div>
+							</div>
+						</div>
+						<div class="resume-timeline-item-desc">
+							<p>
 								Earned a B.E. in Electronics and Telecommunications from
 								Bharati Vidyapeeth, Maharashtra, India &mdash; the foundation
 								everything since has been built on.
 							</p>
 						</div>
-					</div>
+					</article>
 				</div>
-			</div>
+			</section>
 		</section>
 
 		<!-- footer
@@ -885,14 +810,16 @@
 					<ul class="copyright">
 						<li>&copy; Copyright 2026 Soham Save</li>
 						<li>
-							Design using
+							Designed with <i class="bi bi-heart-fill" style="color:#fe655c"></i> by
 							<a
-								href="https://www.styleshout.com/free-templates/ceevee/"
-								title="CeeVee"
-								aria-label="Styleshout CeeVee"
+								class="theme-link"
+								href="http://themes.3rdwavemedia.com"
+								title="Risen by Xiaoying Riley"
+								aria-label="Risen theme by Xiaoying Riley"
 								target="_blank"
-								>Styleshout CeeVee</a
+								>Xiaoying Riley</a
 							>
+							for developers
 						</li>
 					</ul>
 				</div>
@@ -918,10 +845,7 @@
 			src="js/jquery-migrate-1.2.1.min.js"
 		></script>
 
-		<script src="js/jquery.flexslider.js"></script>
 		<script src="js/waypoints.js"></script>
-		<script src="js/jquery.fittext.js"></script>
-		<script src="js/magnific-popup.js"></script>
 		<script src="js/init.js"></script>
 	</body>
 </html>
