@@ -1,110 +1,60 @@
-# Kautilya Save Landing Page Website
+# Soham Save - Portfolio Website
 
-![alt text][kautilya homepage]
+![Homepage preview][homepage]
 
-[kautilya homepage]: https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/readMe/homepage.png "Kautilya Save - Sensehack"
+[homepage]: assets/readMe/homepage.png "Soham Save - Portfolio"
 
-Documentation related to Kautilya Save
+Source for my personal portfolio site — a single-page site covering who I am, my resume, my work, and how to get in touch.
 
-Here you can find various documentation related to Kautilya Save & his journey towards his outlook of life.
-
-## [Visit Website](https://sensehack.github.io)
+## [Visit Website](https://sohamsave07.github.io)
 
 ## Setup 🖥
 
-### Host : [Github](https://github.com/ "Kautilya Save - Sensehack")
+### Host : [GitHub Pages](https://pages.github.com/ "GitHub Pages")
 
-First setup your own Github pages under your **`username.github.io`** & get your domain setup pointed towards Github.
+Set up your own GitHub Pages site under your **`username.github.io`** repo and point your custom domain (if any) at it.
 
-### Domain Service : [Porkbun](https://porkbun.com/ "Kautilya Save - Sensehack")
+### Website Template : [Ceevee](https://www.styleshout.com/free-templates/ceevee/ "Ceevee by StyleShout")
 
-Buy a domain name from any domain registrars. Here is the link for [10 Best Domain Registrars.](https://hostingfacts.com/domain-registrars/ "Kautilya Save - Sensehack")
-
-### Icons
-
-Images assets play a big role for your overall project. I would recommend **Icons 8** for your personal or commercial projects as it has plethora of content which can be embedded in your projects.
-
-### Website Template : [Ceevee](https://www.styleshout.com/free-templates/ceevee/ "Kautilya Save - Sensehack")
-
-To promote reusability & save ample of time for your personal projects you could always opt in for using open source - community driven projects forking them to your own flavor of preferences.
+The site is built on top of the open-source Ceevee template, customized with my own content, sections, and styling.
 
 ## Services Integrated 🔗
 
-### Current Count : 12 🤓
-
-| Entertainment                                                                     | Social                                                                                 | Productive                                                                                  |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [Last FM](https://www.last.fm/ "Kautilya Save - Sensehack")                       | [Embedly](https://embed.ly/ "Kautilya Save - Sensehack")                               | [Rescue Time](https://www.rescuetime.com/ "Kautilya Save - Sensehack")                      |
-| [Trakt TV](https://trakt.tv/ "Kautilya Save - Sensehack")                         | [Instagram](https://www.instagram.com/ "Kautilya Save - Sensehack")                    | [Medium](https://medium.com/ "Kautilya Save - Sensehack")                                   |
-| [Spotify](https://www.spotify.com/ "Kautilya Save - Sensehack")                   | [Twitter](https://twitter.com/ "Kautilya Save - Sensehack")                            | [Github Pages](https://pages.github.com/ "Kautilya Save - Sensehack")                       |
-| [Google Charts](https://developers.google.com/chart/ "Kautilya Save - Sensehack") | [Google Console](https://search.google.com/search-console "Kautilya Save - Sensehack") | [Google Analytics](https://analytics.google.com/analytics/web/ "Kautilya Save - Sensehack") |
+| Analytics                                                                | Social                                                                     |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Google Analytics](https://analytics.google.com/analytics/web/)           | [GitHub](https://github.com/sohamsave07)                                    |
+| [Google Tag Manager](https://tagmanager.google.com/)                      | [LinkedIn](https://www.linkedin.com/in/soham-save/)                         |
+|                                                                             | [PlayStation](https://profile.playstation.com/redphoenix_07)                |
+|                                                                             | [Apple Music](https://music.apple.com/profile/sohamsave44)                  |
 
 ## Tools 🛠
 
 ### Software
 
-#### Code Editor : [Visual Studio Code](https://code.visualstudio.com/ "Kautilya Save - Sensehack")
+#### Code Editor : [Visual Studio Code](https://code.visualstudio.com/)
 
-#### API development environment : [Postman](https://www.getpostman.com/ "Kautilya Save - Sensehack")
+#### Version Control : [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 
-#### Version Control : [Github Desktop](https://desktop.github.com/ "Kautilya Save - Sensehack")
-
-#### Protocols
-
-| [Open Graph](http://ogp.me/ "Kautilya Save - Sensehack") | [MarkDown Lint](https://github.com/DavidAnson/markdownlint/blob/v0.11.0/doc/Rules.md "Kautilya Save - Sensehack") | [Open Source Guide](https://opensource.guide/ "Kautilya Save - Sensehack")
-
-### Extensions
-
-[Extensions](https://marketplace.visualstudio.com/VSCode "Kautilya Save - Sensehack") | [VSCode Github](https://github.com/Microsoft/vscode "Kautilya Save - Sensehack")
-
-Dracula Theme | JSON Tools | NPM | HTML Snippets | Intellisense CSS | WakaTime
-
-#### Lint
-
-JSHint | MarkdownLint | Code SpellChecker | XML Tools
-
-#### Previewer
-
-Markdown Preview | HTML Live | Beautify
-
-#### Online Tools
-
-[EZ Gif](https://ezgif.com/ "Kautilya Save - Sensehack") | [Luna Pic](http://www172.lunapic.com/editor/ "Kautilya Save - Sensehack") | [JSON Lint](https://jsonlint.com/ "Kautilya Save - Sensehack")
-
-## Download latest stable release 📦
-
-[Click here to download project release for your workstation](https://github.com/SensehacK/SensehacK.github.io/releases)
+#### Libraries : jQuery, FlexSlider, Magnific Popup, FitText, Waypoints, Modernizr
 
 ## Contributions ❤️
 
-Feel free to fork this project & raise a pull request to add more relevant information regarding API's usage & making website code more efficient for quicker loading or encapsulation overall.
+Feel free to fork this project & raise a pull request to add more relevant information or make the website code more efficient for quicker loading.
 
 ## Bugs 💔
 
-Please post any bugs to the [issue tracker](https://github.com/SensehacK/SensehacK.github.io/issues) found on the project's GitHub page. Please include a description of what is not working right with your issue.
+Please post any bugs to the [issue tracker](https://github.com/sohamsave07/sohamsave07.github.io/issues) found on the project's GitHub page. Please include a description of what is not working right with your issue.
 
 ## License
 
-[MIT](https://github.com/SensehacK/SensehacK.github.io//LICENSE)
+[MIT](https://github.com/sohamsave07/sohamsave07.github.io/blob/master/LICENSE)
 
-## Sources and Credits
-
-Link for Assets:
-
-[Icons 8](https://icons8.com/ "Kautilya Save - Sensehack") | [Icon Library Resources](https://www.keycdn.com/blog/icon-library "Kautilya Save - Sensehack") | [Gfycat](https://gfycat.com/hoarsecheapkomododragon "Kautilya Save - Sensehack") | [Abovethenoisefoundation](https://abovethenoisefoundation.org/wp-content/uploads/2018/01/atn-transparent-white-noise3.gif "Kautilya Save - Sensehack")
-
-Few links for other templates
-
-[Colorlib Web Responsive Templates](https://colorlib.com/wp/free-responsive-website-templates/ "Kautilya Save - Sensehack") | [Mockplus Free HTML5 Responsive Templates](https://www.mockplus.com/blog/post/free-responsive-html5-web-design-templates "Kautilya Save - Sensehack")
-
-## Authored by : [Kautilya Save](https://sensehack.github.io)
+## Authored by : [Soham Save](https://sohamsave07.github.io)
 
 ### Personal Links
 
-[![TraktTV](https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/icons8/trakttv-48.png)](https://trakt.tv/user/SensehacK) [![LastFm](https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/icons8/lastfm-48.png)](https://www.last.fm/user/Sensehack) [![Spotify](https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/icons8/icons8-spotify-48.png)](https://open.spotify.com/user/sensehack) [![LinkedIn](https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/icons8/icons8-linkedin-48.png)](https://www.linkedin.com/in/kautilyasave/) [![Instagram](https://github.com/SensehacK/SensehacK.github.io/blob/master/assets/icons8/icons8-instagram-48.png)](https://instagram.com/sensehack/)
+[![GitHub](https://img.shields.io/badge/GitHub-sohamsave07-181717?logo=github)](https://github.com/sohamsave07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-soham--save-0A66C2?logo=linkedin)](https://www.linkedin.com/in/soham-save/) [![PlayStation](https://img.shields.io/badge/PlayStation-redphoenix__07-003791?logo=playstation)](https://profile.playstation.com/redphoenix_07) [![Apple Music](https://img.shields.io/badge/Apple%20Music-sohamsave44-FA243C?logo=applemusic)](https://music.apple.com/profile/sohamsave44)
 
-#### [GitHub](https://github.com/SensehacK)
-
-#### [Sensehack Pages](https://sensehack.github.io/)
+#### [GitHub](https://github.com/sohamsave07)
 
 Thank You!
